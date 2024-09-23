@@ -2,7 +2,7 @@ function createFlower() {
     const flowerContainer = document.querySelector(".flower-container");
 
     // Número máximo de flores en pantalla
-    const maxFlowersOnScreen = 25;
+    const maxFlowersOnScreen = 15;
 
     // Verificar si ya hay 10 flores en pantalla
     if (document.querySelectorAll(".flower").length >= maxFlowersOnScreen) {
